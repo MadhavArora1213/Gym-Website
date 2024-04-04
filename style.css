@@ -1,0 +1,109 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://www.thelazylifter.com/wp-content/uploads/2020/09/5008-scaled.jpg');
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    /*  border:2px solid blue;*/
+    display: inline-block;
+}
+
+.left img {
+    width: 75px;
+    padding-top: 15px;
+    padding-left: 40px;
+    
+
+}
+
+.left div {
+    color: #fcd703;
+    line-height: 19px;
+    font-size: 20px;
+}
+
+.mid {
+    display: block;
+    width: 42%;
+    margin: 28px auto;
+    /*  border:2px solid pink;*/
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    /*   border:2px solid green;*/
+    display: inline-block;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px 8px;
+}
+
+.navigation li a:hover,
+.navigation li a.active {
+    text-decoration: underline;
+    color: skyblue;
+}
+
+.btn {
+    margin: 0px 8px;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    border: 7px solid pink;
+    margin: 85px 90px;
+    padding: 75px 60px;
+    width: 38%;
+    border-radius: 20px;
+}
+
+.form-group input {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 2px;
+    margin: 10px auto;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
